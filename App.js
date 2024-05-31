@@ -10,7 +10,7 @@ const heading2 = React.createElement(
 );
 
 const child = React.createElement("div", {}, [heading, heading2]);
-const parent = React.createElement("div", { id: "parent" }, [child, child]);
+const parent = React.createElement("div", { id: "parent" }, [child, child]); //object
 
 console.log(parent); // parent is a js object which have props, type and this object is a react element.
 // ReactElement(object)=> HTML(BROWSER Understands)'

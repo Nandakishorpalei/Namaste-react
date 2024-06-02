@@ -1,0 +1,10 @@
+{
+    "eslint.alwaysShowStatus": true,
+    "eslint.codeActionsOnSave.rules": [
+        "no-undef",
+        "no-console",
+        "no-unused-vars",
+        "*semi*"
+    ],
+    "eslint.format.enable": true
+}

@@ -1,0 +1,50 @@
+{
+  "cities": {
+    "Bangalore": {
+      "bannerImage": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcS1B9zddE-ic3e5H3mzWx0iEmRZtJ4oWsdhMEV4iSPsucpVXXPMe0vVNA6mZjYKJOzkEKedB84wKOEB9We_CzzQilMHu8BvdqEuQoTiuw",
+      "featuredRestaurants": [
+        {
+          "name": "Meghana Foods",
+          "image": "https://b.zmtcdn.com/data/pictures/chains/1/50691/0435a03f4d2017a0a64d90b279c2fa63.jpg",
+          "offers": "20% off on first order",
+          "time": "25-30 mins",
+          "cuisine": "Biryani, Andhra"
+        },
+        {
+          "name": "La Pino'z Pizza",
+          "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/nt579dnbjopqb0uzkmps",
+          "offers": "Buy 1 Get 1 Free",
+          "time": "25-30 mins",
+          "cuisine": "Pizzas, Pastas"
+        }
+      ],
+      "promotions": [
+        "Free delivery on orders above ₹500",
+        "20% off on all orders on weekends"
+      ]
+    },
+    "Delhi": {
+      "bannerImage": "https://lh5.googleusercontent.com/p/AF1QipNT3MFYBjz2Mf13lhr3Ib3742ksR0rVlVphOy5z=w1080-h624-n-k-no",
+      "featuredRestaurants": [
+        {
+          "name": "Kukki da Dhaba",
+          "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/opzevh1m82corwzmbesb",
+          "offers": "15% off on all items",
+          "time": "25-30 mins",
+          "cuisine": "North Indian"
+        },
+        {
+          "name": "Shudh Vaishno Shanker Dhaba",
+          "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/fupeu7ouijvliktcgdls",
+          "offers": "10% cashback on next order",
+          "time": "25-30 mins",
+          "cuisine": "North Indian"
+        }
+      ],
+      "promotions": [
+        "Free delivery on your first order",
+        "Flat ₹100 off on orders above ₹600"
+      ]
+    }
+  }
+}

@@ -6,6 +6,10 @@
   padding: 0 48px;
 }
 
+button {
+  cursor: pointer;
+}
+
 .logo {
   width: 100px;
 }
@@ -25,15 +29,15 @@
   padding: 0 48px;
 }
 
-.search-container {
+.filter-container {
   margin: 24px 0;
   display: flex;
   gap: 12px;
 }
 
 .restaurant-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 40px;
   border: 1px solid aliceblue;
 }

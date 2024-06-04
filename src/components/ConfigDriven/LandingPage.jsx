@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import config from "./ui-config.json"; // Assuming the JSON is in the same directory
+import configDrivenUIData from "../../mockData/ui-config.json"; // Assuming the JSON is in the same directory
 import "./landingPage.css";
 
 const LandingPage = ({ city }) => {
@@ -8,14 +8,14 @@ const LandingPage = ({ city }) => {
 
   useEffect(() => {
     // Fetch city-specific configuration
-    const selectedCityConfig = config.cities[city];
+    const selectedCityConfig = configDrivenUIData.cities[city];
     if (selectedCityConfig) {
       setCityConfig(selectedCityConfig);
     } else {
       // Handle case where the city is not found in the config
       console.error("City configuration not found");
     }
-  }, [city, query]);
+  }, [city]);
 
   if (!cityConfig) {
     return <div>Loading...</div>;
